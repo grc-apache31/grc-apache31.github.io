@@ -65,6 +65,14 @@ html, body {
 	background-size: cover;
 	
 }
+.upper {
+	width: 80%;
+	max-width: 800px;
+	padding: 2%;
+    margin: 100px auto;
+	border-radius: 30px;
+	text-align: center;
+}
 
 .center {
     width: 80%; /* added this to make div responsive*/
@@ -98,7 +106,7 @@ h2 {
 	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #444;
+    color: #f9ebcc;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -109,7 +117,7 @@ p {
 	font-style: normal;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #feefc5;
+    color: #444;
 }
     
 nav{
@@ -138,6 +146,6 @@ a{
 	font-weight: bold;
 	}
 a:hover{
-	color:rgb(255, 255, 255);
+	color:#f9ebcc;
 
 	}
