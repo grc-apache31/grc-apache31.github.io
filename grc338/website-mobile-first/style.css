@@ -1,0 +1,89 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%; 
+    display: block;
+}
+
+nav ul{
+    padding: 0;
+    margin: 1rem
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 1rem;
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    width: 100%;
+	max-width: 50%;
+}
+
+nav ul li a{
+    color:#eaacdb;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:#1e1e1e;
+}
+
+body {
+    background-color: #fafafa;
+    color: #1e1e1e;
+    line-height: 140%;
+    font-family: poppins,sans-serif;
+    max-width: 100%;
+    }
+
+h1{
+
+}  
+
+h2{
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color: #db78c2;
+    margin: 1rem 1rem 1.5rem;
+    line-height: 140%;
+}
+
+h3{
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+    color:#eaacdb;
+    margin: 1rem 1rem 1rem;
+}
+
+p{
+    font-family: poppins,sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 1rem 1rem 1rem;
+}
+ 
+p.description{
+    font-family: poppins,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1rem 1rem 1rem; 
+}
+
+li{
+    margin: 1rem 0.25rem 3rem;   
+    list-style-type: none;
+}
+
+span{
+    font-weight: 300;
+}
